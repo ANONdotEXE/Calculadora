@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Quicksand';
+  src: url('./fonts/Quicksand-VariableFont_wght.ttf');
+}
+
+*{
+  font-family: 'Quicksand';
+}
+
+body {
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: #fff;
+  background: linear-gradient(to left, #0077b6, #1e2a54);
+}
